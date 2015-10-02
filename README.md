@@ -13,7 +13,7 @@ With the addin running in Excel, on save the transpile will kick off you then th
 To get going clone the repo, install the npm packages and do npm start to start the development server:
 
 	git clone https://github.com/UKDXOfficeDev/office-reactjs-taskpane-addin.git
-	cd Office-Add-in-Fabric-UI-Sample
+	cd office-reactjs-taskpane-addin
 	npm install
 	npm start
 	
