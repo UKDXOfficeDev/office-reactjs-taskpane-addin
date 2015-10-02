@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>08afd7fe-1631-42f4-84f1-5ba51e242f99</Id>
+  <Version>1.0</Version>
+  <ProviderName>Gripdev</ProviderName>
+  <DefaultLocale>EN-US</DefaultLocale>
+  <DisplayName DefaultValue="Social Sharing Addin POC"/>
+  <Description DefaultValue="Import information about social shared of a url into Excel."/>
+  <IconUrl DefaultValue=
+    "http://officeimg.vo.msecnd.net/_layouts/images/general/office_logo.jpg"/>
+
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://localhost:3000"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
