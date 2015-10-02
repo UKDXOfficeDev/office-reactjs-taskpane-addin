@@ -59,7 +59,7 @@ export class ShareCountControl extends Component {
 	handleChange(event) {
     	this.setState({url: event.target.value});
   	}
-	//Addin Written in Reactjs. 
+ 
 	render() {
 		var results = this.state.shareCounts.map(function(item, i){
 			return <div className="ms-Table-row" key={item.title}>
