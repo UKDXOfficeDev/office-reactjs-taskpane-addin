@@ -44,6 +44,7 @@ export class ShareCountControl extends Component {
 		var matrixWithHeader = [['Social Network', 'Share Count']]
 		var matrix = matrixWithHeader.concat(matrixToInsert);
 		
+		//NB. Review: Currently using global window object to share OfficeJs instance due to ES6 Scoping. Doesn't feel like the nicest solution.  
 		window.office.context.document.setSelectedDataAsync(
 			matrix,
 			{ CoercionType: window.office.CoercionType.Matrix },

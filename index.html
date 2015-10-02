@@ -15,6 +15,7 @@
 </style>
   </style>
   <script>
+    //NB. Review: Currently using global window object to share OfficeJs instance due to ES6 Scoping. Doesn't feel like the nicest solution.
     Office.initialize = function(reason){
       console.debug("intialized office:" + reason);
     };
