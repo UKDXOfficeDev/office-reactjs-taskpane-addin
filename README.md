@@ -11,9 +11,13 @@ With chrome, on updating a react component and saving the file, the browser will
 
 To get going clone the repo, install the npm packages and do npm start to start the development server:
 
-	git clone ...
+	git clone https://github.com/UKDXOfficeDev/office-reactjs-taskpane-addin.git
 	npm install
 	npm start
+	
+Once you've done that you can now add the addin into Excel, heres a quick guide showing how
+
+![Install into excel, gif](https://cloud.githubusercontent.com/assets/1939288/10243776/f4a00cee-68f2-11e5-95ce-07a7b1a57914.gif)
 
 The solution uses:
 
