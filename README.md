@@ -11,9 +11,9 @@ With chrome, on updating a react component and saving the file, the browser will
 
 To get going clone the repo, install the npm packages and do npm start to start the development server:
 
-git clone ...
-npm install
-npm start
+	git clone ...
+	npm install
+	npm start
 
 The solution uses:
 
